@@ -24,3 +24,7 @@ Route::get('/user', function () {
 Route::get('/home', function () {
     return "home";
 });
+
+Route::get('/login', function () {
+    return "login";
+});
